@@ -1,0 +1,2 @@
+#============= vendor_init ==============
+allow vendor_init vendor_dpmd_data_file:dir { add_name create getattr ioctl open read setattr write };
