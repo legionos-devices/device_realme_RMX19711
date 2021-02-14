@@ -5,7 +5,7 @@
 #
 
 # Inherit some common legionOS stuff.
-$(call inherit-product, vendor/legion/config/common.mk)
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
