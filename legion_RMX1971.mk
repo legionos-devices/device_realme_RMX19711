@@ -15,6 +15,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 LEGION_BUILD_TYPE := OFFICIAL
 
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=LuckYVii
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
 PRODUCT_NAME := legion_RMX1971
